@@ -1,0 +1,27 @@
+Intelion/
+│
+├── config/                 # Arquivos de configuração do projeto
+│   └── settings.py         # Configurações gerais (hiperparâmetros, etc.)
+│
+├── data/                   # Dados de treinamento e teste
+│   └── datasets.py         # Funções para carregar e manipular os dados
+│
+├── models/                 # Definição dos modelos de IA
+│   └── neural_network.py    # Arquivo com a implementação da rede neural
+│   └── backpropagation.py   # Algoritmo de backpropagation
+│
+├── training/               # Rotinas de treinamento e avaliação
+│   └── train.py            # Função para treinar o modelo
+│   └── evaluation.py       # Função para avaliar o modelo
+│
+├── utils/                  # Funções utilitárias (salvar modelos, logs, etc.)
+│   └── helpers.py          # Funções auxiliares (como salvamento de checkpoints, etc.)
+│
+├── tests/                  # Testes unitários e de integração
+│   └── test_neural_network.py # Testes para garantir o funcionamento do modelo
+│
+├── outputs/                # Diretório para salvar resultados (modelos, logs, gráficos)
+│
+├── main.py                 # Arquivo principal que executa o projeto
+├── README.md               # Descrição do projeto
+├── requirements.txt        # Dependências do projeto

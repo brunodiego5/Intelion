@@ -1,0 +1,24 @@
+# Arquivos Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+venv/
+.env/
+aivon_env/
+
+# Arquivos de log
+*.log
+
+# Dados temporários
+*.tmp
+*.swp
+.DS_Store
+
+# Arquivos do sistema
+Thumbs.db
+.vscode/
+
+# Arquivos de configuração e credenciais
+.env
+config/settings.py
