@@ -1,5 +1,3 @@
----
-
 # **Intelion** - Inteligência Artificial para Aprendizado
 
 **Intelion** é uma Inteligência Artificial desenvolvida com o objetivo de aprender e evoluir através de algoritmos de aprendizado profundo, começando com o backpropagation. O projeto é modular e estruturado, permitindo que a IA seja integrada em diferentes assistentes virtuais, como o **Aivon**.
@@ -147,5 +145,3 @@ Ficamos felizes em receber contribuições para o projeto **Intelion**! Aqui est
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
