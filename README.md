@@ -1,5 +1,3 @@
-Aqui está uma sugestão detalhada para o **README.md** do seu repositório **Intelion** no GitHub. Esse arquivo servirá como uma boa documentação para explicar o propósito do projeto, como usá-lo, e como contribuir.
-
 ---
 
 # **Intelion** - Inteligência Artificial para Aprendizado
