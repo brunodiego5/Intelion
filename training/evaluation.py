@@ -17,7 +17,6 @@ def evaluate():
     # Executar a propagação para frente usando os dados de entrada
     outputs = network.forward(inputs)
 
-
     # Exibir as saídas previstas pela rede neural
     print("Saídas previstas pela rede neural (originais):")
     print(outputs)
