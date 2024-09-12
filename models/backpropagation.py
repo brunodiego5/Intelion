@@ -24,4 +24,4 @@ def backpropagation(network, inputs, expected_output, learning_rate):
 
     # Ajuste dos pesos da camada oculta
     network.weights_input_hidden += inputs.T.dot(d_hidden_layer) * learning_rate
-    network.bias_hidden += np.sum(d_hidden_layer, axias=0, keepdims=True) * learning_rate
+    network.bias_hidden += np.sum(d_hidden_layer, axis=0, keepdims=True) * learning_rate

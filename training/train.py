@@ -1,11 +1,14 @@
+import numpy as np
 from models.neural_network import NeuralNetwork
 from models.backpropagation import backpropagation
 from data.datasets import load_data
 from config.settings import LEARNING_RATE, EPOCHS
+from utils.helpers import save_model # Importar a função para salvar o modelo
 
 def train():
     """
     Treina a rede neural usando o algoritmo de backpropagation.
+    Retorna a rede neural treinada e os dados de entrada.
     """
 
     # Carregar dados de entrada e saídas esperadas
@@ -26,5 +29,10 @@ def train():
         if epoch % 1000 == 0:
             loss = np.mean(np.square(expected_output - network.output))
             print(f"Época {epoch}: Erro {loss}")
+
+    # Salvar o modelo após o treinamento
+    save_model(network, "outputs/intelion_model.pkl")
     
     print("Treinamento concluído!")
+
+    return network, inputs

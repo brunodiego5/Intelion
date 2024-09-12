@@ -10,7 +10,7 @@ def save_model(network, filepath):
     with open(filepath, 'wb') as file:
         pickle.dump(network, file)
 
-def laod_model(filepath):
+def load_model(filepath):
     """
     Carrega um modelo treinado de um arquivo.
     param: filepath: Caminho do arquivo de modelo.
